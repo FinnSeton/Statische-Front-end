@@ -1,5 +1,4 @@
 .container {
-    size: 10%;
     width: 50%;
     height: 100%;
     justify-content: center;
@@ -7,18 +6,47 @@
     border: 3px solid #000;
     margin: auto;
     font-family: 'Fira Mono', monospace;
+    border-radius: 15px;
+    margin-top: 200px;
 }
-.img {
+.container2 {
     width: 50%;
     height: 100%;
     justify-content: center;
     align-items: center;
-    margin: auto;
+    border: 3px solid #000;
+    padding-bottom: 100px;
+    padding-right: 150px;
+    font-family: 'Fira Mono', monospace;
+    border-radius: 15px;
+    margin-left: 400px;
+    margin-bottom: 400px;
+}
+.img {
+    width: 32%;
+    height: 50%;
+    float: right;
+    margin-top: -445px;
 }
 .title {
-    width: 20%;
+    width: 400px;
     height: 100%;
     justify-content: center;
     align-items: center;
-    margin: auto;
+    font-size: larger;
+}
+.keyboardimg1 {
+    width: 700px;
+    height: 100px;
+    margin-top: -850px;
+    margin-left: 800px;
+
+}
+.title2 {
+    width: 700px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    padding-left: 40px;
 }
