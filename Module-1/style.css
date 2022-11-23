@@ -1,3 +1,7 @@
+body {
+    background-image: linear-gradient(180deg, rgb(0, 0, 0), rgb(99, 99, 99));
+    padding-bottom: 668px;
+}
 .container {
     width: 50%;
     height: 100%;
@@ -8,25 +12,22 @@
     font-family: 'Fira Mono', monospace;
     border-radius: 15px;
     margin-top: 200px;
+    background-color: rgb(255, 233, 197);
 }
 .container2 {
     width: 50%;
     height: 100%;
-    justify-content: center;
-    align-items: center;
     border: 3px solid #000;
     padding-bottom: 100px;
-    padding-right: 150px;
     font-family: 'Fira Mono', monospace;
     border-radius: 15px;
-    margin-left: 400px;
+    margin-right: 300px;
     margin-bottom: 400px;
-}
-.img {
-    width: 32%;
-    height: 50%;
-    float: right;
-    margin-top: -445px;
+    margin-top: 200px;
+    background-color: 	rgb(255, 233, 197);
+    border-left: 200px;
+    margin-left: 450px;
+
 }
 .title {
     width: 400px;
@@ -34,13 +35,7 @@
     justify-content: center;
     align-items: center;
     font-size: larger;
-}
-.keyboardimg1 {
-    width: 700px;
-    height: 100px;
-    margin-top: -850px;
-    margin-left: 800px;
-
+    padding-left: 80px;
 }
 .title2 {
     width: 700px;
@@ -50,3 +45,31 @@
     font-size: larger;
     padding-left: 40px;
 }
+.keyboardimg1 {
+    width: 700px;
+    height: 100px;
+    margin-top: -830px;
+    margin-left: 700px;
+
+}
+.img {
+    width: 40%;
+    height: 55%;
+    float: right;
+    margin-top: -620px;
+}
+.text {
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    padding-left: 80px;
+}
+.githublogo {
+    margin-left: 800px;
+}
+.homeicon {
+    margin-left: 457px;
+    margin-top: 295px;
+	}
