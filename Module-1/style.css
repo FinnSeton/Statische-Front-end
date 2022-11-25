@@ -51,7 +51,8 @@ body {
     justify-content: center;
     align-items: center;
     font-size: larger;
-    padding-left: 80px;
+    padding-left: 20px;
+    padding-bottom: 20px;
 }
 .title2 {
     width: 700px;
@@ -60,6 +61,14 @@ body {
     align-items: center;
     font-size: larger;
     padding-left: 40px;
+}
+.title3 {
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    padding-left: 20px;
+    width: 200px;
+    height: 20px;
 }
 .keyboardimg1 {
     width: 700px;
@@ -75,9 +84,9 @@ body {
     margin-top: -750px;
 }
 .setup {
-    width: 43%; 
     float: right;
-    margin-top: -557px;
+    width: 425px;
+    height: 100px;
 }
 .text {
     width: 50%;
@@ -85,7 +94,7 @@ body {
     justify-content: center;
     align-items: center;
     font-size: larger;
-    padding-left: 80px;
+    padding-left: 70px;
 }
 .githublogo {
     margin-left: 800px;
@@ -94,4 +103,15 @@ body {
 .homeicon {
     margin-left: 457px;
     margin-top: 295px;
+	}
+.textsetup {
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.homeicon2 {
+    float: right;
+    padding-top: 35px;
+    margin-right: 915px;
+
 	}
