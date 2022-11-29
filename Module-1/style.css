@@ -4,6 +4,7 @@ body {
     padding-top: 0px;
     height: 760px;
 }
+
 .container {
     width: 50%;
     height: 100%;
@@ -17,6 +18,7 @@ body {
     background-color: rgb(255, 233, 197);
     float: none;
 }
+
 .container2 {
     width: 50%;
     height: 100%;
@@ -27,10 +29,11 @@ body {
     margin-right: 300px;
     margin-bottom: 400px;
     margin-top: 200px;
-    background-color: 	rgb(255, 233, 197);
+    background-color: rgb(255, 233, 197);
     border-left: 200px;
     margin-left: 450px;
 }
+
 .container3 {
     width: 50%;
     height: 70%;
@@ -41,10 +44,11 @@ body {
     margin-right: 300px;
     margin-bottom: 100px;
     margin-top: 200px;
-    background-color: 	rgb(255, 233, 197);
+    background-color: rgb(255, 233, 197);
     border-left: 200px;
     margin-left: 450px;
 }
+
 .title {
     width: 400px;
     height: 20px;
@@ -54,6 +58,7 @@ body {
     padding-left: 20px;
     padding-bottom: 20px;
 }
+
 .title2 {
     width: 700px;
     height: 100%;
@@ -62,6 +67,7 @@ body {
     font-size: larger;
     padding-left: 40px;
 }
+
 .title3 {
     justify-content: center;
     align-items: center;
@@ -70,6 +76,7 @@ body {
     width: 200px;
     height: 20px;
 }
+
 .keyboardimg1 {
     width: 700px;
     height: 100px;
@@ -77,17 +84,20 @@ body {
     margin-left: 700px;
 
 }
+
 .img {
     width: 40%;
     height: 55%;
     float: right;
     margin-top: -750px;
 }
+
 .setup {
     float: right;
     width: 425px;
     height: 100px;
 }
+
 .text {
     width: 50%;
     height: 100%;
@@ -96,22 +106,26 @@ body {
     font-size: larger;
     padding-left: 70px;
 }
+
 .githublogo {
     margin-left: 800px;
     margin-top: -130px;
 }
+
 .homeicon {
     margin-left: 457px;
     margin-top: 295px;
-	}
+}
+
 .textsetup {
     float: left;
     margin-top: 20px;
     margin-left: 20px;
 }
+
 .homeicon2 {
     float: right;
     padding-top: 35px;
     margin-right: 915px;
 
-	}
+}
