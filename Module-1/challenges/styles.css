@@ -1,0 +1,47 @@
+.tiny, .small, .medium, .large {
+    display: none;
+}
+
+@media screen and (min-width: 300px) {
+    .tiny {
+        display: block;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    .small, .medium, .large {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .small {
+        display: block;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .tiny, .medium, .large {
+        display: none;
+    }
+}
+    
+@media screen and (min-width: 900px) {
+    .medium {
+        display: block;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .tiny, .large, .small {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .large {
+        display: block;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+    .tiny, .medium, .small {
+        display: none;
+    }
+}
